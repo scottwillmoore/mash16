@@ -1,3 +1,5 @@
+**NOTE.** This is a fork of tykel's Chip16 emulator. It is assumed to have the best compatibility and support for various Chip16 ROMs. I have modified the emulator so that it can be compiled and run with vs2017. I plan to add additional code to the emulator in order to create a test platform for [my Chip16 emulator written in Rust](https://github.com/scottwillmoore/chip16). This should involve creating a new file format for testing Chip16 emulators. This file format should be language agnostic so that anyone implementing a Chip16 emulator can use it to test compatibility.
+
 # Mash16 -- Reference Chip16 Emulator
 
 ## Summary
