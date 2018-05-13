@@ -6,3 +6,6 @@ build/
 tags
 c
 archive/
+
+# visual studio files
+vs2017/Release/
