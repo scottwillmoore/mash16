@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\options.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\header\header.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\header\crc.c">
+    <ClCompile Include="..\src\core\audio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\core\cpu.c">
@@ -33,10 +24,19 @@
     <ClCompile Include="..\src\core\cpu_ops.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\header\crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\core\gpu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\core\audio.c">
+    <ClCompile Include="..\src\header\header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\options.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\strings.c">
